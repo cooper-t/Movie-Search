@@ -1,0 +1,141 @@
+header {
+  margin: 2rem;
+  margin-bottom: 6rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+}
+
+.search__field {
+  width: 50%;
+  height: 2.5rem;
+  -webkit-box-shadow: 2px 5px 8px #888888;
+          box-shadow: 2px 5px 8px #888888;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search__btn {
+  height: 2.5rem;
+  width: 5rem;
+  padding-top: 5px;
+  -webkit-box-shadow: 2px 5px 8px #888888;
+          box-shadow: 2px 5px 8px #888888;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-style: oblique;
+  border: none;
+}
+
+.results h2 {
+  text-align: center;
+}
+
+.results__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.results__content {
+  text-align: center;
+}
+
+.results__year {
+  margin-bottom: 2.5rem;
+}
+
+.results__poster {
+  width: 40vw;
+}
+
+@media (max-width: 48em) {
+  .results__poster {
+    width: 100vw;
+  }
+}
+
+.results__poster > img {
+  -webkit-box-shadow: 10px 15px 10px gray;
+          box-shadow: 10px 15px 10px gray;
+}
+
+.results__data {
+  color: black;
+  width: 40vw;
+  margin: 1rem 2.5rem;
+}
+
+@media (max-width: 48em) {
+  .results__data {
+    width: 100vw;
+  }
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+body {
+  font-family: "Nunito-Sans", sans-serif;
+  max-width: 100%;
+}
+
+.footer {
+  margin-top: 3rem;
+  background-color: lightslategrey;
+  height: 20rem;
+  color: white;
+  font-weight: lighter;
+}
+
+.footer__copy {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 6rem;
+}
+
+.footer__source {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+//TEXT
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+body {
+  font-family: "Nunito-Sans", sans-serif;
+  // overflow-x: hidden;
+  max-width: 100%;
+}

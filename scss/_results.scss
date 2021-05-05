@@ -1,0 +1,44 @@
+.results {
+  h2 {
+    // color: black;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    // overflow-x: hidden;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__year {
+    margin-bottom: 2.5rem;
+  }
+
+  &__poster {
+    width: 40vw;
+
+    @include breakpoint(tablet) {
+      width: 100vw;
+    }
+
+    > img {
+      box-shadow: 10px 15px 10px gray;
+    }
+  }
+
+  &__data {
+    color: black;
+    width: 40vw;
+    margin: 1rem 2.5rem;
+
+    @include breakpoint(tablet) {
+      width: 100vw;
+    }
+  }
+}

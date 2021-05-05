@@ -1,0 +1,17 @@
+.footer {
+  margin-top: 3rem;
+  background-color: lightslategrey;
+  height: 20rem;
+  color: white;
+  font-weight: lighter;
+
+  &__copy {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 6rem;
+  }
+
+  &__source {
+    text-align: center;
+  }
+}
