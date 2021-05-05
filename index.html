@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="scss/style.css" />
+    <script defer src="js/controller.js"></script>
+
+    <title>Film Finder // Find Information on Your Favorite Films</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Top Ten Movie Search</h1>
+      <form class="search" action="" method="GET" >
+        <input
+          type="text"
+          class="search__field"
+          placeholder="Search for a Movie!">
+        </input>
+        <button class="search__btn">Search</button>
+        <!-- <button class="clear__btn">Clear</button> -->
+      </form>
+      <!-- Add Bookmark button?-->
+    </header>
+    <section class="results">
+        <h2 class="results__title">Search Results for ' star wars '</h2>
+        <div class="results__container">
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg" alt="Star Wars: Episode IX - The Rise of Skywalker">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode IX - The Rise of Skywalker</h4>
+              <p class="results__year">2019</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg" alt="Rogue One: A Star Wars Story">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Rogue One: A Star Wars Story</h4>
+              <p class="results__year">2016</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg" alt="Star Wars: Episode VIII - The Last Jedi">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode VIII - The Last Jedi</h4>
+              <p class="results__year">2017</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg" alt="Star Wars: Episode II - Attack of the Clones">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode II - Attack of the Clones</h4>
+              <p class="results__year">2002</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg" alt="Star Wars: Episode III - Revenge of the Sith">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode III - Revenge of the Sith</h4>
+              <p class="results__year">2005</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg" alt="Star Wars: Episode I - The Phantom Menace">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode I - The Phantom Menace</h4>
+              <p class="results__year">1999</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg" alt="Star Wars: Episode VII - The Force Awakens">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode VII - The Force Awakens</h4>
+              <p class="results__year">2015</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg" alt="Star Wars: Episode VI - Return of the Jedi">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode VI - Return of the Jedi</h4>
+              <p class="results__year">1983</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" alt="Star Wars: Episode V - The Empire Strikes Back">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode V - The Empire Strikes Back</h4>
+              <p class="results__year">1980</p>
+            </div>
+          </div>
+          <div class="results__content">
+            <figure class="results__poster">
+              <img src="https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" alt="Star Wars: Episode IV - A New Hope">
+            </figure>
+            <div class="results__data">
+              <h4 class="results__title">Star Wars: Episode IV - A New Hope</h4>
+              <p class="results__year">1977</p>
+            </div>
+          </div>
+    
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__copy">By Trey Cooper &copy; 2021</div>
+      <div class="footer__source">Information Provided by <a href="http://omdbapi.com" target="_blank">omdbapi</a></div>
+    </footer>
+  </body>
+</html>
